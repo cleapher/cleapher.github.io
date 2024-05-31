@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog sobre el Barroco</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>El Barroco: Un Viaje a Través del Arte y la Historia</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">Introducción</a></li>
+                <li><a href="#arte">Arte Barroco</a></li>
+                <li><a href="#musica">Música Barroca</a></li>
+                <li><a href="#literatura">Literatura Barroca</a></li>
+                <li><a href="#comentarios">Comentarios</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="intro" class="section">
+            <h2>Introducción</h2>
+            <p>El Barroco fue un período de gran producción artística que abarcó desde finales del siglo XVI hasta principios del siglo XVIII. Se caracterizó por su exuberancia, complejidad y dinamismo.</p>
+        </section>
+        
+        <section id="arte" class="section">
+            <h2>Arte Barroco</h2>
+            <p>El arte barroco se destaca por su atención al detalle, el uso dramático de la luz y la sombra, y la representación realista de las emociones humanas.</p>
+            <div class="gallery">
+                <img src="img1.jpeg" alt="Obra de arte barroca 1">
+                <img src="img2.jpg" alt="Obra de arte barroca 2">
+                <img src="img3.jpeg" alt="Obra de arte barroca 3">
+                <img src="img4.jpg" alt="Obra de arte barroca 4">
+            </div>
+        </section>
+        
+        <section id="musica" class="section">
+            <h2>Música Barroca</h2>
+            <p>La música barroca incluye compositores famosos como Johann Sebastian Bach, Antonio Vivaldi y George Frideric Handel. Se caracteriza por su ornamentación y complejidad.</p>
+            <audio controls>
+                <source src="music1.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </section>
+        
+        <section id="literatura" class="section">
+            <h2>Literatura Barroca</h2>
+            <p>La literatura barroca está marcada por un lenguaje elaborado y una exploración profunda de temas filosóficos y morales. Autores destacados incluyen a Luis de Góngora y Francisco de Quevedo.</p>
+        </section>
+        
+        <section id="comentarios" class="section">
+            <h2>Comentarios</h2>
+            <form id="comment-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="comment">Comentario:</label>
+                <textarea id="comment" name="comment" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="comments-list">
+                <!-- Los comentarios aparecerán aquí -->
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Blog sobre el Barroco. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
